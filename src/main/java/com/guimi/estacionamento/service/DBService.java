@@ -55,7 +55,5 @@ public class DBService {
         Vaga v5 = new Vaga(false);
 
         vagaRepository.saveAll(Arrays.asList(v1, v2, v3, v4, v5));
-
-
     }
 }
